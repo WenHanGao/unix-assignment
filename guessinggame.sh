@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 function guess {
-	num_files=$(ls -l | wc -l)
+	num_files=$(ls -l | wc -l)-1
 	not_found=true
 	while [[ $not_found ]]
 	do
